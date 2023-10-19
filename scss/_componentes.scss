@@ -1,0 +1,19 @@
+a{
+    outline: none;
+    text-decoration: none;
+    font-weight: bold;
+    color: $colortxt;   
+}
+
+.navbar{
+    @extend %flexrow;
+    justify-content: space-evenly;
+}
+
+.btncard{
+    color: $colorbtn;
+    background-color: $colortxt;
+    }
+.btncard:hover{
+    background-color: $colorprim;
+}

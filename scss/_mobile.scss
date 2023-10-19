@@ -1,0 +1,101 @@
+@media (max-width: 600px){
+    .encabezado{
+        flex-direction: column;
+        margin: 20px;
+        padding: 0px;
+        align-items: center;
+    }
+    .encabezado h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    .encabezado img{
+        width: 200px;
+        align-items: center;
+    }
+    .navbar{
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .banner{
+        padding: 25px;
+        font-size: 20px;
+        font-weight: 300;
+        background-position: 100%;
+    }
+    .txtuno{
+        font-size: 11px;
+        height: 80px;
+        margin: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        flex-direction: column;
+    }
+    .ncto{
+        font-size: 25px;
+        padding: 15px;
+        background-color: $colorprim;
+    }
+    .txtdos{
+        font-size: 10px;
+        margin: 20px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .bannerep{
+        height: 200px;
+        padding: 25px;
+        font-size: 20px;
+        font-weight: 300;
+        background-position: 100%;
+    }
+    .banneros{
+        max-width: 100%;
+        padding: 25px;
+        font-size: 20px;
+        font-weight: 300;
+        background-position: 100%;
+    }
+    .bannerpf{      
+        background-size: auto;
+        font-size: 20px;
+        font-weight: 300;
+    }
+    .bannercontac{
+        width: 100%;
+        height: 250px;
+        font-size: 20px;
+        font-weight: 300px;
+        background-image: url(../assets/img/contactobanner.jpg);
+    }
+
+    .cartas{
+        width:100%;
+        max-width:600px;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+        .card{
+            width: 350%;
+        }
+    }
+    .preguntasrespuestas{
+        font-size: 10px;
+    }
+    .caja{
+        padding: 10px;
+        margin-left: 5px;
+        margin-right: 10px;
+        text-align: center;
+    }
+    .tldr{
+        padding-top: 10px;
+        font-size: small;
+        text-align: center;
+    }
+}
