@@ -1,31 +1,4 @@
-$colorprim: #73C2BE;
-$colortxt: black;
-$colorbtn: white;
-$fuentetitulos: 'Merriweather', serif;
-$fuentesec: Arial, Helvetica, sans-serif;
-$tamaniotxtsec: 18px;
-
-%flexrow{
-    display: flex;
-    flex-direction: row;
-}
-
-%flexrowcenternw{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-}
-
-%bannermedidasletra{
-    font-size: 50px;
-    font-weight: 700;
-}
-
-@mixin tamaniobanners{
-    font-size: 50px;
-    font-weight: 700;
-}
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,700&display=swap');
 
 *{
     margin: 0;

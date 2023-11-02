@@ -1,4 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
 .navbar, .iconos, .tldr, .imgobras, .bannerpf, .bannerep, .encabezado h1, .encabezado {
   display: flex;
   flex-direction: row;
@@ -9,13 +16,6 @@
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-  list-style: none;
 }
 
 .encabezado {
@@ -305,8 +305,7 @@ a {
     background-image: url(../assets/img/contactobanner.jpg);
   }
   .cartas {
-    width: 100%;
-    max-width: 600px;
+    width: 30%;
   }
   .row {
     display: flex;
